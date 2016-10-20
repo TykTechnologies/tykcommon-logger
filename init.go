@@ -26,6 +26,8 @@ func GetLogger() *logrus.Logger {
 		log.Level = logrus.InfoLevel
 	case "debug":
 		log.Level = logrus.DebugLevel
+	case "error":
+		log.Level = logrus.ErrorLevel
 	default:
 		log.Level = logrus.InfoLevel
 	}
