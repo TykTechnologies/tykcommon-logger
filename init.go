@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	prefixed "github.com/x-cray/logrus-prefixed-formatter"
-	"github.com/Sirupsen/logrus"
+	"github.com/TykTechnologies/logrus"
+	prefixed "github.com/TykTechnologies/logrus-prefixed-formatter"
 )
 
 var log = logrus.New()
